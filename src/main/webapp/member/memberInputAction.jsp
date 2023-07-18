@@ -19,7 +19,7 @@
 	try {
 		//SqlSession 객체를 이용하여 매퍼에 등록된 SQL 명령을 DBMS 서버에 전달하여 실행할 때
 		//문제가 발생되면 PersistenceException 발생 - 예외처리
-		MyMemberDAO.getMember().insertMember(member);
+		MyMemberDAO.getDAO().insertMember(member);
 		
 		response.sendRedirect("memberDisplay.jsp");
 	} catch(Exception e) {
