@@ -9,6 +9,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
+import xyz.itwill.dto.MyCommentReplyUser;
 import xyz.itwill.dto.MyMember;
 import xyz.itwill.mapper.MyMemberMapper;
 
