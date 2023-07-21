@@ -1,5 +1,7 @@
 package xyz.itwill.dto;
 
+import java.io.Serializable;
+
 /**
  * 
  * 이름              널?       유형            
@@ -15,7 +17,8 @@ COMMENT_DATE             DATE 			- 게시글 작성일
  */
 
 // 클래스의 필드명을 테이블의 컬럼명과 같은 이름으로 작성한 클래스
-public class MyComment1 {
+public class MyComment1{
+
 	private int commentNo;
 	private String commentId;
 	private String commentContent;

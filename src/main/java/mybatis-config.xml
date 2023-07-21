@@ -21,7 +21,11 @@
 		변경하는 기능을 허용 -->
 		<setting name="callSettersOnNulls" value="true"/>
 		<setting name="mapUnderscoreToCamelCase" value="true"></setting>
+		
+		<!-- SQL 명령 실행 시 전달받은 객체의 필드값이 [NULL]인 경우 SQL 명령에서 [NULL]로 처리되도록 제공하는 기능  -->
+		<setting name="idbcTypeForNull" value="NULL"/>
 	</settings>
+	
 	
 	<!-- typeAliases : typeAlias 엘리먼트를 등록하기 위한 상위 엘리먼트  -->
 	<typeAliases>
