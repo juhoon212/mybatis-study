@@ -143,12 +143,6 @@
 		</association>
 	</resultMap>
 	
-	<resultMap type="" id="">
-		<association property="comment">
-			
-		</association>
-	</resultMap>
-	
 	<select id="selectCommentUserList2" resultMap="myCommentUser2ResultMap">
 		select comment_no, comment_id, comment_content, comment_date, user_id, user_name 
 			from mycomment join myuser on comment_id=user_id order by comment_no desc
